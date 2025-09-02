@@ -99,14 +99,6 @@ Kontribusi selalu diterima! Silakan:
 - [ ] Dark mode toggle
 - [ ] Export password ke file text
 
-## Lisensi
-
-Proyek ini menggunakan lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
-
-## Kontak
-
-Jika ada pertanyaan atau saran, silakan buat issue di repository ini.
-
 ---
 
 ⭐ Jika proyek ini bermanfaat, jangan lupa untuk memberikan star!
