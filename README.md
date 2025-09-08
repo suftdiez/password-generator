@@ -1,104 +1,82 @@
 # Password Generator 🔐
 
-Sebuah aplikasi web sederhana untuk generate password yang kuat dan aman dengan antarmuka yang user-friendly.
-
-## Deskripsi
-
-Password Generator adalah tool web-based yang memungkinkan pengguna untuk membuat password acak dengan panjang yang dapat disesuaikan. Aplikasi ini dilengkapi dengan fitur toggle show/hide password dan kemampuan untuk menyalin password ke clipboard.
-
-## Fitur
-
-- ✨ **Generate Password Acak** - Membuat password dengan kombinasi huruf besar, huruf kecil, angka, dan karakter khusus
-- 🔢 **Panjang Dapat Disesuaikan** - Menentukan panjang password sesuai kebutuhan
-- 👁️ **Toggle Show/Hide Password** - Melihat atau menyembunyikan password yang di-generate
-- 📋 **Copy to Clipboard** - Menyalin password langsung ke clipboard dengan satu klik
-- 📱 **Responsive Design** - Tampil optimal di berbagai ukuran layar
-- 🎨 **UI Modern** - Menggunakan Bootstrap 5 untuk tampilan yang clean dan professional
-
-## Teknologi yang Digunakan
-
-- **HTML5** - Struktur halaman web
-- **CSS3** - Styling dengan Bootstrap 5.3.8
-- **JavaScript** - Logika aplikasi dan interaktivitas
-- **Font Awesome 6.0** - Icon untuk toggle password
-- **Bootstrap 5.3.8** - Framework CSS untuk UI yang responsive
-
-## Struktur File
-
-```
-password-generator/
-│
-├── index.html          # Halaman utama aplikasi
-├── script.js           # Logic JavaScript untuk generate password
-└── README.md           # Dokumentasi proyek
-```
-
-## Cara Penggunaan
-
-1. **Clone atau download** repository ini
-2. **Buka file `index.html`** di browser
-3. **Masukkan panjang password** yang diinginkan pada field "Panjang Password"
-4. **Klik tombol "Generate Password"** untuk membuat password acak
-5. **Gunakan tombol mata** untuk show/hide password
-6. **Klik "Save Password"** untuk menyalin password ke clipboard
-
-## Instalasi
-
-Tidak memerlukan instalasi khusus. Cukup buka file `index.html` di web browser modern.
-
-```bash
-# Clone repository
-git clone [repository-url]
-
-# Masuk ke direktori
-cd password-generator
-
-# Buka di browser
-open index.html
-```
-
-## Screenshot
-
-Aplikasi menampilkan form sederhana dengan:
-- Input field untuk menentukan panjang password
-- Input password dengan toggle show/hide
-- Tombol generate dan save yang stylish
-
-## Karakter Set Password
-
-Password yang di-generate menggunakan kombinasi dari:
-- Huruf kecil: `a-z`
-- Huruf besar: `A-Z` 
-- Angka: `0-9`
-- Karakter khusus: `!@#$%^&*()`
-
-Total 72 karakter yang memastikan password yang kuat dan aman.
-
-## Browser Compatibility
-
-- ✅ Chrome 60+
-- ✅ Firefox 55+
-- ✅ Safari 12+
-- ✅ Edge 79+
-
-## Kontribusi
-
-Kontribusi selalu diterima! Silakan:
-
-1. Fork repository ini
-2. Buat branch fitur baru (`git checkout -b fitur-baru`)
-3. Commit perubahan (`git commit -am 'Menambah fitur baru'`)
-4. Push ke branch (`git push origin fitur-baru`)
-5. Buat Pull Request
-
-## Rencana Pengembangan
-
-- [ ] Menambah opsi untuk include/exclude karakter tertentu
-- [ ] Menyimpan history password yang pernah di-generate
-- [ ] Menambah strength meter untuk password
-- [ ] Dark mode toggle
-- [ ] Export password ke file text
+Aplikasi web modern untuk generate password yang kuat, aman, dan stylish.  
+Dilengkapi dengan **dark/light mode**, **password strength meter**, dan **notifikasi toast interaktif**.
 
 ---
 
-⭐ Jika proyek ini bermanfaat, jangan lupa untuk memberikan star!
+## ✨ Fitur
+
+- 🔑 **Generate Password Acak**  
+  Membuat password dengan kombinasi huruf besar, huruf kecil, angka, dan karakter khusus.
+- 🔢 **Panjang Dapat Disesuaikan**  
+  Pengguna bisa menentukan panjang password. Validasi minimal **4 karakter**.
+- 📊 **Password Strength Meter**  
+  Indikator kekuatan password (Weak → Medium → Strong → Very Strong).
+- 👁️ **Toggle Show/Hide Password**  
+  Bisa melihat atau menyembunyikan password.
+- 📋 **Copy to Clipboard**  
+  Menyalin password dengan sekali klik.
+- 🌙☀️ **Light/Dark Mode**  
+  Bisa ganti tema, pilihan tersimpan di `localStorage`.
+- 🔔 **Modern Toast Notification**  
+  Notifikasi dengan ikon, warna sesuai status, animasi slide, dan auto-close dengan progress bar countdown.
+- 📱 **Responsive UI**  
+  Tampilan bersih dan modern dengan Bootstrap 5.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **HTML5** – Struktur halaman
+- **CSS3** – Styling custom + animasi
+- **Bootstrap 5.3.8** – Framework UI
+- **Font Awesome 6.0** – Ikon
+- **JavaScript (ES6)** – Logika aplikasi + interaktivitas
+
+---
+
+## 📂 Struktur Proyek
+
+password-generator/
+│
+├── index.html # Halaman utama
+├── style.css # Styling & animasi
+├── script.js # Logika aplikasi
+└── README.md # Dokumentasi proyek
+
+---
+
+## 🚀 Cara Penggunaan
+
+1. **Clone atau download** repository ini.
+2. Buka file `index.html` di browser.
+3. Masukkan panjang password (minimal 4).
+4. Klik tombol **Generate Password**.
+5. Gunakan ikon 👁️ untuk show/hide password.
+6. Klik **Save Password** untuk menyalin ke clipboard.
+7. Atur tema (🌙/☀️), preferensi otomatis tersimpan.
+
+---
+
+## 📸 Screenshot (Preview UI)
+
+- Card UI modern dengan tombol animasi  
+- Dark/Light mode toggle 🌙☀️  
+- Toast notifikasi dengan ikon, warna, dan progress bar countdown  
+- Password strength meter (Weak → Very Strong)
+
+*(Tambahkan screenshot di sini jika sudah ada)*
+
+---
+
+## 📌 Rencana Pengembangan
+
+- [ ] Opsi include/exclude karakter tertentu
+- [ ] History password yang pernah digenerate
+- [ ] Export password ke file `.txt`
+- [ ] UI multibahasa
+
+---
+
+⭐ Jika proyek ini bermanfaat, jangan lupa kasih **star** ya!
